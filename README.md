@@ -65,9 +65,9 @@ Es un modelo de caja
    * Cuando se necesite agregar más espacio a un elemento (hijo) poner en su contenedor un número en relación a los demás. `flex-grow: 2` --> dos 'porciones'
 * `flex-shrink` define el tamaño de reducción de un elemento (hijo) en relación a sus demás hermanos cuando falte espacio en el contenedor (padre). Por defecto es 1. 
    * Para cuando se necesite que un hijo no se reduzca cuando ya no haya espacio en el contenedor se pone `flex-shrink: 0;`
-* `flex-basis` Define el tamaño inicial del elemento (hijo). Su valor por defecto es 'auto'.
+* `flex-basis` Define el tamaño inicial del elemento (hijo). Su valor por defecto es 'auto'. Es el tamaño base de un elemento
    * Un equivalente a `width` de los contenedores hijos
-   * `flex-basis: 0; ` nos asegura que los contenedores tendran el mismo tañano al aplica `flex-grow` cada porción sera de la misma manera. (no por el contenido del elemento hijo)
+   * `flex-basis: 0; ` nos asegura que los contenedores tendran el mismo tañano al aplicar `flex-grow` cada porción sera de la misma manera. (no por el contenido del elemento hijo)
 
 ### N° 10 Podemos resumir todo con la propiedad flex
 _flex: flex-grow flex-shrink flex-basis_
